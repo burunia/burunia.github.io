@@ -1,0 +1,49 @@
+body{
+    margin: auto;
+    max-width: 1000px;
+    color: white;
+    background-color: #000000;
+    font-family: Helvetica;
+}
+header{
+    display: block;
+    height: 400px;
+}
+h1 {
+    font-size: 60px;
+}
+h3 {
+    font-size: 29px;
+}
+#Title{
+    display: block;
+    float: left;
+    border:solid 3px red;
+    width: 55%;
+    height: 280px;
+    margin-bottom: 0px;
+    margin-top:150px;
+}
+section{
+    display: block;
+    float: left;
+    max-width: 70%;
+    border-top: dashed 2px white;
+}
+aside{
+    display: block;
+    float: left;
+    border-left: dashed 2px white;
+    max-width: 28%;
+    height: 800px;
+}
+header img{
+    display: block;
+    float: left;
+    width: auto;
+    height: 99%;
+}
+footer{
+    width: 100%;
+    height: 100px;
+}
