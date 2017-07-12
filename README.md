@@ -1,8 +1,10 @@
-#Presonal CV
+Presonal CV
+===
 
 This is my personal Cv describes my skills and expirience 
 
-##Getting Started
+Getting Started
+---
 
 Coppy burunia.github.io to your browser to see working CV
 
