@@ -1,24 +1,24 @@
-#Presonal CV#
+#Presonal CV
 
 This is my personal Cv describes my skills and expirience 
 
-##Getting Started##
+##Getting Started
 
 Coppy burunia.github.io to your browser to see working CV
 
-###Prerequisites###
+**Prerequisites**
 
 Any up to date webbrowser  
 
 google chrome
 
-###Authors###
+**Authors**
 
 Krzysztof Durak
 
-###License###
+**License**
 
 This project is licensed under the MIT License 
 
-###Acknowledgments###
+**Acknowledgments**
 
