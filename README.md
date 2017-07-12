@@ -10,9 +10,9 @@ Coppy burunia.github.io to your browser to see working CV
 
 **Prerequisites**
 
-Any up to date webbrowser  
+Any up to date WebBrowser  
 
-google chrome
+*google chrome*
 
 **Authors**
 
@@ -20,7 +20,7 @@ Krzysztof Durak
 
 **License**
 
-This project is licensed under the MIT License 
+*This project is licensed under the MIT License* 
 
 **Acknowledgments**
 
