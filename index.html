@@ -9,22 +9,22 @@
 <header class="head">
     <img class="head__avatar" src="Images/Foto CV-80.jpg" alt="Smiley face">
     <div class="head__title">
-        <h1>Krzysztof Durak</h1>
-        <h3>JUNIOR FRONTEND DEVELOPER</h3>
+        <h1 class="head__title__h1">Krzysztof Durak</h1>
+        <h3 class="head__title__h3"> JUNIOR FRONTEND DEVELOPER</h3>
         <button class="head__title__btn">Contact Me</button>
     </div>
 </header>
 <section class="field">
-    <h4><img class="field__icons" src="Images/Objectives.svg">Objective</h4>
+    <img class="field__icons" src="Images/Objectives.svg"><h4 class="field_h4">Objective</h4>
     <p>My objective is to obtain an entry level position where I can gain more experience to improve my skills and
         knowledge.</p>
     <article class="field__article">
-        <h4><img class="field__article__icons" src="Images/Education.svg">Education</h4>
-        <p>Postgraduate in Computer Graphics at
+        <img class="field__article__icons" src="Images/Education.svg"><h4 class="field__article__h4">Education</h4>
+        <p class="field__article__text">Postgraduate in Computer Graphics at
             The Marie Curie Skłodowska University in Lublin, Poland</p>
-        <p>Degree in Early School Education with English at
+        <p class="field__article__text">Degree in Early School Education with English at
             The Jan Kochanowski in Kielce, Poland</p>
-        <h4><img class="field__article__icons" src="Images/Skills.svg">Skills</h4>
+        <img class="field__article__icons" src="Images/Skills.svg"><h4 class="field__article__h4">Skills</h4>
         <div class="field__article__rating">
             <ul class="field__article__list">
                 <li class="field__article__rating__list--heding">Software</li>
@@ -67,45 +67,51 @@
                 <li class="field__article__rating__list--time">4 years</li>
             </ul>
         </div>
-        <h4><img class="field__article__icons" src="Images/Experience.svg">Experience</h4>
-        <p>DTP Specialist Senior (01.2012 - Present) Print House „Wisła” Poland - preparing files for print, imposition,
+        <img class="field__article__icons" src="Images/Experience.svg"><h4 class="field__article__h4">Experience</h4>
+        <p class="field__article__text">DTP Specialist Senior (01.2012 - Present) Print House „Wisła” Poland - preparing files for print, imposition,
             graphic design, tools: Adobe indesign, Adobe illustrator, Adobe photoshop, MS Office </p>
-        <p>„Interface” Digital Agency (04.2011 – 07.2011)
+        <p class="field__article__text">„Interface” Digital Agency (04.2011 – 07.2011)
             Lublin Poland- Graphic Designer /DTP
             Professional web & graphic design,
             branding + identity, print design.</p>
-        <p>Freelancing (06.2009 – Present)
+        <p class="field__article__text">Freelancing (06.2009 – Present)
             Cooperations with interactive agency and individual clients.
             My areas of expertise are all areas of graphic and
             interface design such as web, mobile, print, logo and branding
             Portfolio: www.krzysztofdurak.pl </p>
-        <h4><img class="field__article__icons" src="Images/Hobbies.svg">Hobbies</h4>
-        <p>Gym, yoga, pc games, technology.</p>
+        <img class="field__article__icons" src="Images/Hobbies.svg"><h4 class="field__article__h4">Hobbies</h4>
+        <p class="field__article__text">Gym, yoga, pc games, technology.</p>
     </article>
 </section>
-<aside>
-    <h4><img class="icons" src="Images/Projects.svg">Projects</h4>
-    <img class="icons" src="Images/light.svg"><a href="http://krzysztofdurak.pl/">Portfolio</a>
-    <p>My old portfolio made using adobe Muse</p>
-    <img class="icons" src="Images/light.svg"><a href="http://krzysztofdurak.pl/">Portfolio</a>
-    <p>My old portfolio made using adobe Muse</p>
-    <img class="icons" src="Images/light.svg"><a href="http://krzysztofdurak.pl/">portfolio</a>
-    <p>My old portfolio made using adobe Muse</p>
+<aside class="aside">
+    <img class="aside__icons" src="Images/Projects.svg"><h4 class="aside__h4">Projects</h4>
+    <img class="aside__icons" src="Images/light.svg"><a href="http://krzysztofdurak.pl/">Portfolio</a>
+    <p class="aside_text">My old portfolio made using adobe Muse</p>
+    <img class="aside__icons" src="Images/light.svg"><a href="http://krzysztofdurak.pl/">Portfolio</a>
+    <p class="aside_text">My old portfolio made using adobe Muse</p>
+    <img class="aside__icons" src="Images/light.svg"><a href="http://krzysztofdurak.pl/">portfolio</a>
+    <p class="aside_text">My old portfolio made using adobe Muse</p>
 </aside>
-<footer>
-    <div class="brick">
-        <a href="url"><img class="icons" src="Images/Git Hub.svg"></a>
-        <a href="url"><img class="icons" src="Images/linkedin.svg"></a>
-        <a href="url"><img class="icons" src="Images/Google.svg"></a>
-        <a href="url"><img class="icons" src="Images/Facebook.svg"></a>
+<footer class="footer">
+    <div class="footer__brick">
+        <a href="url"><img class="footer__brick__icons" src="Images/Git Hub.svg"></a>
+        <a href="url"><img class="footer__brick__icons" src="Images/linkedin.svg"></a>
+        <a href="url"><img class="footer__brick__icons" src="Images/Google.svg"></a>
+        <a href="url"><img class="footer__brick__icons" src="Images/Facebook.svg"></a>
     </div>
-    <div class="brick">
-        <p>Creted By Krzysztof Durak</p>
+    <div class="footer__brick">
+        <p class="footer__brick__text">Creted By Krzysztof Durak</p>
     </div>
-    <div class="brick">
-        <h4>Contact:</h4>
-        <p>krzysztofdurak@gmail.com</p>
-        <p>kom.: +48697 144 792</p>
+    <div class="footer__brick">
+        <h4 class="footer__brick__h4">Contact:</h4>
+        <form class="footer__brick__form" method="POST" action="http://api.jfdzl1.is-academy.pl/emailer.php">
+            <input class="footer__brick__form__imput" type="hidden" name="reply-to" value="twoj@email.com">
+            Your name: <input class="footer__brick__form__imput" type="text" name="name">
+            Your e-mail: <input class="footer__brick__form__imput" type="text" name="email">
+            Message:
+            <textarea name="message"></textarea>
+            <input type="submit" value="Send">
+        </form>
     </div>
 </footer>
 </body>
