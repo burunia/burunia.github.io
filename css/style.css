@@ -1,4 +1,8 @@
-body {
+body{
+    background-color: #000000;
+}
+
+#container {
     margin: auto;
     max-width: 1000px;
     color: white;
@@ -20,24 +24,16 @@ body {
 }
 
 .head__title {
-    display: block;
-    float: left;
-    width: 55%;
-    height: 280px;
-    margin-bottom: 0px;
-    margin-top: 100px;
-}
-
-h1 {
     font-size: 60px;
-    margin: 0;
-}
-
-h3 {
+    float: left;
+    margin: 100px 0 10px 0;
+   }
+.head__title--smaler {
+    display: inline-block;
     font-size: 29px;
-    margin: 0;
+    margin-top:3px;
 }
-.head__title__btn {
+.head__btn {
     background-color: black;
     border: solid 2px white;
     color: white;
@@ -47,53 +43,59 @@ h3 {
     font-size: 29px;
     margin-top: 15px;
 }
-
-h4 {
-    margin: 20px 0 10px 0;
-    font-size: 32px;
-}
-
-p {
-    padding-left: 42px;
-
-}
-
 .field {
     display: block;
     float: left;
     max-width: 65%;
-
 }
-
-.rating span {
-    color: yellow;
+field__article {
+    margin: 0;
 }
-
+.field__article--h4 {
+    font-size: 32px;
+    display:inline-block;
+    margin: 15px 0px;
+}
+.field__article--text {
+    padding-left: 40px;
+}
+.field__article--icons {
+    width: 32px;
+    height: auto;
+    display:inline;
+    margin-right: 10px;
+}
+.field__article__rating {
+    display: block;
+    width: auto;
+}
+.field__article__rating__list {
+    display:inline-block;
+    margin-top: 0px;
+}
 .field__article__rating__list--heding {
-    text-align: left;
-    margin: 0 120px 0 0 ;
+    margin: 0 120px 10px 0 ;
     list-style: none;
-    display: inline;
+    width: 80px;
+    font-weight: bold;
 }
 .field__article__rating__list--software{
-    margin: 0 40px 0 0 ;
+    margin: 0px 46px 0px 0px ;
     list-style: none;
-    display: block;
-    float: left;
     width: 150px;
 }
 .field__article__rating__list--stars{
-    margin: 0 80px 0 0 ;
+    margin: 0 140px 0 0 ;
     list-style: none;
-    display: inline;
     color: gold;
 }
 .field__article__rating__list--time{
-    margin: 0 120px 0 0 ;
     list-style: none;
-    display: inline;
 }
-aside {
+.rating span {
+    color: yellow;
+}
+.aside {
     display: block;
     float: left;
     border-left: dashed 2px white;
@@ -103,7 +105,35 @@ aside {
     margin-left: 20px;
     text-decoration: none;
 }
+.aside__icons {
+    width: 32px;
+    height: auto;
+    margin-right: 10px;
+    float: left;
 
+}
+.aside__icons--small{
+    margin-left: 32px;
+}
+.aside__text{
+    margin: 0px 0 20px 0;
+    font-size: 32px;
+    width: 80%;
+    display: inline-block;
+}
+.aside__text--paragraph{
+    font-size: 18px;
+    margin-left: 77px;
+    width: 75%;
+    display: inline-block;
+}
+.aside__text--name{
+    font-size: 18px;
+    width: 70%;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+}
 
 footer {
     display: block;
@@ -113,42 +143,6 @@ footer {
     border-top: dashed 2px white;
     margin-top: 20px;
     padding-top: 20px;
-}
-
-.field__icons {
-    width: 32px;
-    height: auto;
-    margin-right: 10px;
-    display:inline;
-}
-.field_h4{
-    display:inline;
-}
-
-.field__article__icons {
-    width: 32px;
-    height: auto;
-    margin-right: 10px;
-    display:inline;
-}
-.field__article__h4{
-    display:inline;
-}
-
-.aside__icons {
-    width: 32px;
-    height: auto;
-    margin-right: 10px;
-    display:inline;
-}
-.aside__h4{
-    display:inline;
-}
-
-.footer__brick__icons {
-    width: 32px;
-    height: auto;
-    margin-right: 10px;
 }
 
 .rating {
@@ -163,4 +157,18 @@ footer {
 
 footer p {
     padding: 0;
+}
+.footer {
+    display: block;
+    float: left;
+    width: 100%;
+    height: 100px;
+    border-top: dashed 2px white;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+.footer__brick__icons {
+    width: 32px;
+    height: auto;
+    margin-right: 10px;
 }
