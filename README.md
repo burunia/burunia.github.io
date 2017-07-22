@@ -14,6 +14,9 @@ Any up to date WebBrowser
 
 *google chrome*
 
+**Updates**
+Version 1.0 with BEM methodology applied
+
 **Authors**
 
 Krzysztof Durak
